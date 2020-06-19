@@ -1,0 +1,31 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+<link rel= "stylesheet" type = "text/css" href = "{% static 'css/about.css' %}"> 
+    <h1> <u>ABOUT ME </u></h1>
+    <p>I am a junior honors computer science student studying at the University of Massachusetts Amherst.
+        I began my coding journey in my senior year of high school when I took AP Computer Science and 
+        it was through this that I developed a strong passion for the subject. This eventually led me
+        to the decision to continue my studies of CS in college. I'm currently interested in front-end web development,
+        but I also enjoy learning back-end technologies as I eventually want to become a full stack developer
+        in the future.  
+    </p>
+    <div class = "aboutPicDiv">
+    <img src = "https://pioneerinstitute.org/wp-content/uploads/UMass-Featured-e1441140894273.png" class = "aboutPic" id = "umass">
+    <img src = "https://cdn.uconnectlabs.com/wp-content/uploads/sites/5/2017/12/20170301155447.jpg" class = "aboutPic" id = "webdev">
+    </div>
+    <h1><u>INTERESTS</u></h1>
+    <p>
+        Outside of learning, I enjoy playing sports, video games, going to the gym, and serving the community.  
+        In my freshman year of college I played for my school's A team for table tennis and participated
+        in numerous tournaments throughout the semester.  Although I don't play for them now, I still like
+        to play table tennis recreationally and teach newer players. I have also served as the community service
+        and philanthropy chairs of my fraternity where I planned events and fundraisers to give back to the 
+        community.  
+    </p>
+    
+    
+    <img src = "{% static 'images/groupPic.jpg' %}" class = "interestPic">
+    <h5>My friends and I serving at the Not Bread Alone Food Pantry in Amherst!</h5>
+{% endblock content %}

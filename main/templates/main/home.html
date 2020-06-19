@@ -1,0 +1,31 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+
+
+{% block content %}
+<link rel= "stylesheet" type = "text/css" href = "{% static 'css/home.css' %}"> 
+<div class = "opener">
+    <h2>Hi, I'm</h2>
+    <h1>- JONATHAN ZHOU -</h1>
+    <h3>Welcome To My Page!</h3>
+</div>
+<div class = "contactInfo">
+    <p>Amherst·Boston</p>
+    <p>(781)-535-1334 · jyzhou@umass.edu</p>
+</div>
+<img src = "{% static 'images/proPic.jpeg' %}" id = "profilePic">
+<div class = buttonLinks>
+    <a class = "button" href = "https://www.linkedin.com/in/jonathan-zhou-635241186/" target = "blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a class = "button" href = "https://umass.joinhandshake.com/users/11786891" target = "blank">
+        <i class="fas fa-handshake"></i>
+    </a>
+    <a class = "button" href = "https://github.com/jozhou17" target = "blank">
+        <i class="fab fa-github"></i>
+    </a>
+</div>
+
+   
+{% endblock content %}

@@ -1,0 +1,45 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.opener{ 
+   color: #17252A;
+   text-align:center;
+}
+.contactInfo{
+    text-align:center;
+}
+
+#profilePic{
+    display:block;
+    background-position: center;
+    border-radius:10%;
+    width: 225px;
+    height: 275px;
+    background-size: cover; 
+    border: 5px solid #3AAFA9;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+
+}
+.buttonLinks{
+    position:absolute;
+    text-align:center;
+    width: 100%;
+}
+.button{
+    margin: 25px 20px 0px 20px;
+    display: inline-block;
+    background: #DEF2F1;
+    width: 55px;
+    height: 55px;
+    border-radius: 25%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #2B7A78;
+}
+.button i {
+    line-height: 60px;
+    font-size: 20px;
+}
+

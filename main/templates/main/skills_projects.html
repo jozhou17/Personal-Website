@@ -1,0 +1,57 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+<link rel= "stylesheet" type = "text/css" href = "{% static 'css/skills.css' %}">
+
+<section class = "container">
+<div class = "left-section">
+    <h1><u>SKILLS</u></h1>
+    <h4>Programming Languages</h4>
+    <ul>
+        <li>Java, JavaScript, Python, C, SQL, HTML, CSS</li>
+    </ul>
+    <h4>Web Frameworks</h4>
+    <ul>
+        <li>Django</li>
+    </ul>
+    <h4>Software</h4>
+    <ul>
+        <li>Eclipse, Visual Studio Code</li>
+    </ul>
+    <h4>Relevant Coursework</h4>
+    <ul>
+        <li>Data Structures (Java), Programming Methodology (JavaScript), Computer System Principles (C),
+            Reasoning Under Uncertainty (Probability Theory), Intro to Computation (Discrete Math)</li>
+    </ul>
+</div>
+
+<div class = "right-section">
+    <h1><u>PROJECTS</u></h1>
+    <h4>Personal Website</h4>
+        <ul>
+            <li>Self-taught HTML, CSS, Python, and Django to create this site</li>
+            <li>No Bootstrap used</li>
+            <li>Deployed this website using Heroku</li>
+        </ul>
+    <h4>Text Adventure Game (C)</h4>
+        <ul>
+            <li>Rendition of the Betrayal at House on the Hill Game</li>
+            <li>Player’s objective is to traverse through different rooms in search of items/omens to retrieve before returning to the starting room</li>
+            <li>Implemented a command table and item bag in the form of a linked list for the player which allowed for search/insertion/deletion based on user input</li>
+        </ul>
+    <h4>Restaurant Data Search (JavaScript)</h4>
+        <ul>
+            <li>Retrieved data containing a list of restaurants from an online JSON file</li>
+            <li>Incorporated higher order functions to help create methods that filtered and returned JSON objects based on the desired queries</li>
+        </ul>
+    <h4>Word Freak Game Counter (C)</h4>
+        <ul>
+            <li>Program that takes in files as input and then outputs the number of times a word appears in the file</li>
+            <li>Files are able to read through standard input, argv, and as an environment variable</li>
+            <li>Utilized a hashtable to record each word soon and to ensure that there are no duplicates</li>
+        </ul>
+
+</div>
+</section>
+{% endblock content %}

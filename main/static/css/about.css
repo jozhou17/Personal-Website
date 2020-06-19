@@ -1,0 +1,50 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+h5{
+    text-align:center;
+}
+h1{
+    text-align:center;
+    color: #17252A;
+}
+p{
+    margin: 0 auto;
+    text-align:center;
+    width: 70%;
+    
+}
+
+.aboutPic{
+    margin-top: 15px;
+    border-radius:50%;
+    width: 135px;
+    height: 135px;
+    border: 5px solid #3AAFA9;
+
+
+}
+
+.interestPic{
+    display:flex;
+    width: 350px;
+    height: 250px;
+    border: 5px solid #3AAFA9;
+    margin: 25px auto 10px auto;
+    border-radius: 15%;
+    
+}
+
+/*  flex  */
+
+.aboutPicDiv{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly; 
+    
+}
+
+
+
+
